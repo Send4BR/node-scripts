@@ -20,6 +20,9 @@
     "eslint.js",
     "prettier.js"
   ],
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
   "peerDependencies": {
     "eslint": "^6",
     "prettier": "^2"
