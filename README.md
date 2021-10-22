@@ -2,10 +2,10 @@
 
 ## Installation
 
-This module is distributed via npm. You can install it as a dev dependency:
+This module is distributed via GitHub. You can install it as a dev dependency:
 
 ```
-$ npm i -D @aftersale/node-scripts
+$ npm i -D https://github.com/Send4BR/node-scripts
 ```
 
 ## Usage
