@@ -19,6 +19,7 @@
   "author": "aftersale",
   "license": "MIT",
   "files": [
+    "shared",
     "eslint.js",
     "prettier.js"
   ],
@@ -26,8 +27,8 @@
     "*.js": "eslint **/*.js"
   },
   "peerDependencies": {
-    "eslint": "^6",
-    "prettier": "^2"
+    "eslint": ">=6",
+    "prettier": ">=2"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
