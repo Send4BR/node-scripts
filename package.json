@@ -4,12 +4,28 @@
   "description": "aftersale Node.js utilitary scripts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "keywords": [
     "eslint",
     "prettier"
   ],
+  "engines": {
+    "node": ">=14"
+  },
   "author": "aftersale",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "eslint.js",
+    "prettier.js"
+  ],
+  "peerDependencies": {
+    "eslint": "^6",
+    "prettier": "^2"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.3"
+  }
 }
