@@ -1,1 +1,7 @@
-module.exports = require("./shared/eslint.config");
+module.exports = {
+  env: {
+    es6: true,
+    node: true
+  },
+  extends: './shared/eslint.config'
+};
