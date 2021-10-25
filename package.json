@@ -4,7 +4,6 @@
   "description": "aftersale Node.js utilitary scripts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write",
     "verify": "lint-staged",
     "prepare": "husky install"
