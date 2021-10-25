@@ -1,6 +1,6 @@
 {
   "name": "@aftersale/node-scripts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "aftersale Node.js utilitary scripts",
   "main": "index.js",
   "scripts": {
