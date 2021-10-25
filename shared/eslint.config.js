@@ -7,6 +7,6 @@ module.exports = {
 
     'max-depth': ['error', 6],
     'max-params': ['error', 3],
-    complexity: ['error', 7]
+    complexity: ['error', 12]
   }
 };

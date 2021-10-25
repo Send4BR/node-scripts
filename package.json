@@ -19,6 +19,7 @@
   "license": "MIT",
   "files": [
     "shared",
+    "package.json",
     "eslint.js",
     "prettier.js"
   ],
